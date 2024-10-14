@@ -4,7 +4,13 @@ from prettytable import PrettyTable
 os.system("cls")
 
 print("------------------------------------------------------------------------------")
-print("                  Sistem Booking MUA (Make-up Artist) Ica                     ")
+print("         Selamat Datang Di Sistem Booking MUA (Make-up Artist) Ica            ")
+print("------------------------------------------------------------------------------")
+
+print("------------------------------------------------------------------------------")
+print("                            Instagram: @muabyica                              ")
+print("                           Whatsapp: 081234567890                             ")
+print("                            Facebook: MUA BY ICA                              ")
 print("------------------------------------------------------------------------------")
 
 jenis_makeup = {
@@ -19,16 +25,14 @@ jenis_makeup = {
     "9": {"nama": "Resepsi", "harga": 1500000}
 }
 
-
-'------------------------------------------------------------------------------'
-'                     (Create) Menambahkan Servis Make-Up                      '
-'------------------------------------------------------------------------------'
-
 bookings = []
 
+'------------------------------------------------------------------------------' 
+'                     (Create) Menambahkan Booking Make-Up                     '
+'------------------------------------------------------------------------------'
+
 def tambah_booking(id_booking, nama_pelanggan, servis_makeup, harga_makeup, alamat_pelanggan, tanggal_booking, jam_booking, kontak_pelanggan):
-    try:
-        booking = {
+    booking = {
             "Id": id_booking,
             "Nama": nama_pelanggan,
             "Jenis Makeup": servis_makeup,
@@ -38,71 +42,50 @@ def tambah_booking(id_booking, nama_pelanggan, servis_makeup, harga_makeup, alam
             "Jam Booking": jam_booking,
             "Kontak Pelanggan": kontak_pelanggan
         }
-        bookings.append(booking)
-    except Exception as e:
-        print("Error: ", str(e))
-
-
+    bookings.append(booking)
 
 '------------------------------------------------------------------------------'
-'                     (Read) Melihatkan Servis Make-Up                      '
+'                       (Read) Melihatkan Booking Make-Up                      '
 '------------------------------------------------------------------------------'
 
 def lihat_bookings():
-    try:
         table = PrettyTable()
         table.field_names = ["ID", "Nama", "Jenis Makeup", "Harga", "Alamat", "Tanggal Booking", "Jam Booking","Kontak Pelanggan"]
         for booking in bookings:
             table.add_row([booking["Id"], booking["Nama"], booking["Jenis Makeup"], booking["Harga"], booking["Alamat"], booking["Tanggal Booking"], booking["Jam Booking"], booking["Kontak Pelanggan"]])
         print(table)
-    except Exception as e:
-        print("Error: ", str(e))
+
 
 def lihat_jenis_makeup():
-    try:
         table = PrettyTable()
         table.field_names = ["No", "Nama Makeup", "Harga"]
-
         for key, value in jenis_makeup.items():
             table.add_row([key, value["nama"], f"{value['harga']:,}"])
-
         print(table)
-    except Exception as e:
-        print("Error: ", str(e))
-
-
 
 '------------------------------------------------------------------------------'
-'                     (Update) Mengupdate Servis Make-Up                      '
+'                     (Update) Mengupdate Booking Make-Up                      '
 '------------------------------------------------------------------------------'
 
 def update_booking(id, updated_data):
-    try:
         for booking in bookings:
             if booking['Id'] == id:
                 booking.update(updated_data)
-                print("Booking berhasil diubah")
+                print("Booking Berhasil Diubah!")
                 return
         print("Booking tidak ditemukan")
-    except Exception as e:
-        print("Error: ", str(e))
-
 
 '------------------------------------------------------------------------------'
-'                     (Delete) Menghapus Servis Make-Up                      '
+'                     (Delete) Menghapus Booking Make-Up                        '
 '------------------------------------------------------------------------------'
 
 def delete_booking(id):
-    try:
         for i, booking in enumerate(bookings):
             if booking['Id'] == id:
                 bookings.pop(i)
-                print("Booking berhasil dihapus!")
+                print("Booking Berhasil Dihapus!")
                 return
         print("Booking tidak ditemukan")
-    except Exception as e:
-        print("Error: ", str(e))
-
 
 '------------------------------------------------------------------------------'
 '                                 Menu Admin                                   '
@@ -119,7 +102,7 @@ def login_admin():
 
 def main_admin():
     while True:
-        print("----Admin Booking Make-Up By Ica----")
+        print("----------------------Menu Admin Booking Make-Up By Ica-----------------------")
         print("1. Tambah Booking")
         print("2. Lihat Booking")
         print("3. Update Booking")
@@ -146,8 +129,7 @@ def main_admin():
             jam_booking = input("Masukkan Jam Booking: ")
             kontak_pelanggan = input("Masukkan Kontak Pelanggan: ")
             tambah_booking(id_booking, nama_pelanggan, servis_makeup, harga_makeup, alamat_pelanggan, tanggal_booking, jam_booking, kontak_pelanggan)
-            print("Booking Ditambahkan")
-
+            print("Booking Telah Ditambahkan!")
         elif pilihan == "2":
             lihat_bookings()
         elif pilihan == "3":
@@ -157,13 +139,13 @@ def main_admin():
             for key, value in jenis_makeup.items():
                 print(f"{ key}. {value['nama']} - Rp {value['harga']}")
             while True:
-                updated_servis_makeup_choice = input("Masukkan pilihan (1-9): ")
-                if updated_servis_makeup_choice in jenis_makeup:
+                updated_pilihan_jenis_makeup = input("Masukkan pilihan (1-9): ")
+                if updated_pilihan_jenis_makeup in jenis_makeup:
                     break
                 else:
                     print("Pilihan tidak tersedia. Silakan pilih lagi.")
-            updated_servis_makeup= jenis_makeup[updated_servis_makeup_choice]["nama"]
-            updated_harga_makeup = jenis_makeup[updated_servis_makeup_choice]["harga"]
+            updated_servis_makeup= jenis_makeup[updated_pilihan_jenis_makeup]["nama"]
+            updated_harga_makeup = jenis_makeup[updated_pilihan_jenis_makeup]["harga"]
             updated_alamat_pelanggan = input("Masukkan Alamat Pelanggan baru: ")
             updated_tanggal_booking = input("Masukkan Tanggal Booking baru: ")
             updated_jam_booking = input("Masukkan Jam Booking baru: ")
@@ -178,16 +160,13 @@ def main_admin():
                 "Kontak Pelanggan": updated_kontak_pelanggan
             }
             update_booking(id, updated_data)
-            print("Booking telah diperbarui!")
         elif pilihan == "4":
             id = input("Masukkan ID Booking: ")
             delete_booking(id)
-            print("Booking telah dihapus!")
         elif pilihan == "5":
             break
         else:
-            print("Pilihan tidak tersedia. Silakan pilih lagi.")
-
+            print("Maaf. Pilihan tidak tersedia, silakan pilih lagi.")
 
 '------------------------------------------------------------------------------'
 '                                 Menu Customer                                '
@@ -195,7 +174,7 @@ def main_admin():
 
 def main_customer():
     while True:
-        print("----Booking Make-Up By Ica----")
+        print("------------------------Menu Booking Make-Up By Ica---------------------------")
         print("1. Lihat Jenis Makeup")
         print("2. Booking")
         print("3. Lihat Jadwal Booking")
@@ -223,13 +202,13 @@ def main_customer():
             id_booking = input("Masukkan ID Booking: ")
             kontak_pelanggan = input("Masukkan Kontak Pelanggan: ")
             tambah_booking(id_booking, nama_pelanggan, servis_makeup, harga_makeup, alamat_pelanggan, tanggal_booking, jam_booking, kontak_pelanggan)
+            print("Booking Telah Ditambahkan!")
         elif pilihan == "3":
             lihat_bookings()
         elif pilihan == "4":
             break
         else:
-            print("Pilihan tidak tersedia. Silakan pilih lagi.")
-
+            print("Maaf. Pilihan tidak tersedia, silakan pilih lagi.")
 
 '------------------------------------------------------------------------------'
 '                                 Main Menu                                    '
@@ -237,7 +216,7 @@ def main_customer():
 
 def main():
     while True:
-        print("----Sistem Booking MUA (Make-up Artist) By Ica----")
+        print("------------Menu Utama Sistem Booking MUA (Make-up Artist) By Ica-------------")
         print("1. Admin")
         print("2. Customer")
         print("3. Keluar")
@@ -252,9 +231,10 @@ def main():
         elif pilihan == "2":
             main_customer()
         elif pilihan == "3":
+            print("Terima kasih telah menggunakan Sistem Booking MUA By Ica!")
             break
         else:
-            print("Pilihan tidak tersedia. Silakan pilih lagi.")
+            print("Maaf. Pilihan tidak tersedia, silakan pilih lagi.")
 
 if __name__ == "__main__":
     main()
