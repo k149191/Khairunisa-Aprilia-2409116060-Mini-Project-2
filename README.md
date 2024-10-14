@@ -73,48 +73,82 @@ Pada menu utama terdapat pilihan untuk admin/customer/keluar. Jika memilih admin
 
 
 - PENJELASAAN OUTPUT CODE
-- ADMIN
+- ROLE SEBAGAI ADMIN
+
+Menu Utama
+Bisa memilih role sebagai 1. admin, 2. customer, dan juga bisa 3. keluar dari program sistem.
 
 ![Screenshot 2024-10-14 221214](https://github.com/user-attachments/assets/d963f8eb-cdd9-4375-9908-05401f683b77)
 
-
-![Screenshot 2024-10-14 221233](https://github.com/user-attachments/assets/af88af42-82bb-4e55-aa97-3a2de24033f0)
-
-![Screenshot 2024-10-14 221241](https://github.com/user-attachments/assets/37a2b071-3d90-46a5-82f2-2fc3889cbd8f)
-
-![Screenshot 2024-10-14 221617](https://github.com/user-attachments/assets/b5ef5038-185d-494e-a23d-74c914dc0766)
-
-![Screenshot 2024-10-14 221712](https://github.com/user-attachments/assets/416b1818-8dab-4a28-b630-77a3d52b3f5a)
-
-![Screenshot 2024-10-14 221856](https://github.com/user-attachments/assets/961c06b3-3b76-492d-906f-1fc56a1bc31b)
-
-![Screenshot 2024-10-14 222042](https://github.com/user-attachments/assets/44c73204-cd2d-4b7d-8b86-d89b391cd2fd)
-
-![Screenshot 2024-10-14 222134](https://github.com/user-attachments/assets/6f5a6e93-51c2-485a-bdb8-1068edeb3b60)
-
-![Screenshot 2024-10-14 222219](https://github.com/user-attachments/assets/04742ec2-6531-45fb-8cc7-67c20577d430)
-
-![Screenshot 2024-10-14 222257](https://github.com/user-attachments/assets/b389a09f-543f-4856-aea4-9403d930883d)
-
-- CUSTOMER
-![Screenshot 2024-10-14 222428](https://github.com/user-attachments/assets/80cf25a4-bb5c-4579-9e4e-9ef8d3e62c61)
-
-![Screenshot 2024-10-14 222501](https://github.com/user-attachments/assets/731abb02-d20a-4758-8b94-8fceea98fa4f)
-
-![Screenshot 2024-10-14 222655](https://github.com/user-attachments/assets/af18444e-39e5-439c-9857-de2771ae8b10)
-
-
-![Screenshot 2024-10-14 222705](https://github.com/user-attachments/assets/ea686e83-dd66-4cd4-ad79-7551204927c9)
+Jika Memilih 1 akan muncul inputan untuk memasukkan username dan password. Username: ica dan Password: 20042006, selain username dan password tersebut tidak bisa login ke admin. Dan jika login berhasil, maka akan masuk ke menu admin.
 
 
 ![Screenshot 2024-10-14 222719](https://github.com/user-attachments/assets/bc453454-69fb-45d3-89ea-c80a17a36e16)
 
-![Screenshot 2024-10-14 222745](https://github.com/user-attachments/assets/738906f3-ea88-44ef-b817-be44b552a154)
-![Screenshot 2024-10-14 222824](https://github.com/user-attachments/assets/555c59a8-6922-4a5e-b82e-73445ded3aad)
+![Screenshot 2024-10-14 221233](https://github.com/user-attachments/assets/af88af42-82bb-4e55-aa97-3a2de24033f0)
+
+Menu Admin, bisa memilih 1. tambah booking, 2. lihat booking, 3. update booking, 4. hapus booking, 5. keluar dari menu admin ke menu utama
+
+![Screenshot 2024-10-14 221241](https://github.com/user-attachments/assets/37a2b071-3d90-46a5-82f2-2fc3889cbd8f)
+
+Jika memilih pilihan 1, yaitu menambahkan booking. Maka akan muncul untuk memasukkan ID Booking, Nama Pelanggan, Pilihan (1-9) Jenis Makeup, Alamat Pelanggan, Tanggal Booking, Jam Booking, Kontak Pelanggan). Lalu setelah dimasukkan akan muncul ucapan Booking Telah Ditambahan!, jika booking telah berhasil ditambahkan. Dan akan kembali ke menu admin lagi.
+
+![Screenshot 2024-10-14 221617](https://github.com/user-attachments/assets/b5ef5038-185d-494e-a23d-74c914dc0766)
+
+Jika memilih pilihan 2, yaitu melihat booking. Maka akan muncul tabel booking (berisi ID Booking, Nama Pelanggan, Pilihan Jenis Makeup, Alamat Pelanggan, Tanggal Booking, Jam Booking, Kontak Pelanggan) yang tersusun dengan rapi. Lalu akan kembali ke menu admin lagi.
+
+![Screenshot 2024-10-14 221712](https://github.com/user-attachments/assets/416b1818-8dab-4a28-b630-77a3d52b3f5a)
+
+Jika memilih pilihan 3, yaitu mengupdate/mengubah data booking (bisa mengubah nama pelanggan, pilihan jenis makeup, alamat pelanggan, tanggal booking, jam booking, dan kontak pelanggan). Contohnya seperti di gambar outputan, mengubah jenis makeup dari 1.graduation ke 2.party. Lalu akan muncul ucapan Booking Berhasil Diubah!, jika booking telah diupdate/diubah.
+
+![Screenshot 2024-10-14 221856](https://github.com/user-attachments/assets/961c06b3-3b76-492d-906f-1fc56a1bc31b)
+
+Memilih pilihan 2 untuk menampilkan tabel booking yang telah diupdate/diubah.
+
+![Screenshot 2024-10-14 222042](https://github.com/user-attachments/assets/44c73204-cd2d-4b7d-8b86-d89b391cd2fd)
+
+Jika memilih pilihan 4, yaitu menghapus booking. Akan muncul input untu memasukan Id Booking untuk mengapus booking. Lalu akan muncul ucapan Booking berhasil Dihapus!, jika booking berhasil dihapus. Setelahnya akan kembali ke menu admin lagi.
+
+![Screenshot 2024-10-14 222134](https://github.com/user-attachments/assets/6f5a6e93-51c2-485a-bdb8-1068edeb3b60)
+
+Memilih pilihan 2 untuk menampilkan tabel booking yang bookingannya telah dihapus.
+
+![Screenshot 2024-10-14 222219](https://github.com/user-attachments/assets/04742ec2-6531-45fb-8cc7-67c20577d430)
+
+Jika memilih pilihan 5, yaitu keluar dari menu admin. Akan kembali ke menu utama.
+
+![Screenshot 2024-10-14 222257](https://github.com/user-attachments/assets/b389a09f-543f-4856-aea4-9403d930883d)
+
+
+- ROLE SEBAGAI CUSTOMER
+
+Jika Memilih 2 akan masuk ke menu customer. DIdalam menu customer terdapat pilihan 1. Lihat jenis makeup, 2. Booking, 3. Lihat jadwal booking, 4. keluar dari menu customer ke menu utama.
+(Note: alasan tidak membuat login untuk customer karena agar semua orang bisa melihat jadwal booking tanpa login.)
+
+![Screenshot 2024-10-14 222428](https://github.com/user-attachments/assets/80cf25a4-bb5c-4579-9e4e-9ef8d3e62c61)
+
+Jika memilih pilihan 1, yaitu melihat booking. Maka akan muncul tabel jenis makeup (berisi No, Nama makeup, dan Harga) yang tersusun dengan rapi. Lalu akan kembali ke menu customer lagi.
+
+![Screenshot 2024-10-14 222501](https://github.com/user-attachments/assets/731abb02-d20a-4758-8b94-8fceea98fa4f)
+
+Jika memilih pilihan 2, yaitu menambahkan booking. Maka akan muncul untuk memasukkan Nama Pelanggan, Pilihan (1-9) Jenis Makeup, Alamat Pelanggan, Tanggal Booking, Jam Booking, ID Booking, Kontak Pelanggan). Lalu setelah dimasukkan akan muncul ucapan Booking Telah Ditambahan!, jika booking telah berhasil ditambahkan. Dan akan kembali ke menu customer lagi.
+
+![Screenshot 2024-10-14 222644](https://github.com/user-attachments/assets/f3185cc6-6b0f-4e1f-91dd-062bdd561dfd)
+
+Jika memilih pilihan 3, yaitu melihat booking. Maka akan muncul tabel booking (berisi ID Booking, Nama Pelanggan, Pilihan Jenis Makeup, Alamat Pelanggan, Tanggal Booking, Jam Booking, Kontak Pelanggan) yang tersusun dengan rapi. Lalu akan kembali ke menu customer lagi.
+
+![Screenshot 2024-10-14 222655](https://github.com/user-attachments/assets/af18444e-39e5-439c-9857-de2771ae8b10)
+
+Jika memilih pilihan 4, yaitu keluar dari menu customer. Akan kembali ke menu utama.
+
+![Screenshot 2024-10-14 222705](https://github.com/user-attachments/assets/ea686e83-dd66-4cd4-ad79-7551204927c9)
+
+- JIKA LANGSUNG KELUAR DARI SISTEM
+
+Jika memilih pilihan 3, pada menu utama. Maka akan muncul ucapan Terima Kasih telah menggunakan Sistem Booking MUA By Ica!.
 
 ![Screenshot 2024-10-14 222840](https://github.com/user-attachments/assets/849145e6-511a-4527-9b0e-564a75478878)
 
-![Screenshot 2024-10-14 222849](https://github.com/user-attachments/assets/04de6bf9-9db2-4475-89d2-21c050b8222c)
 
 
 
