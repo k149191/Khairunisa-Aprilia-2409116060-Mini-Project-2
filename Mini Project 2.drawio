@@ -64,15 +64,6 @@
         <mxCell id="-Zbz8kqlZJ3fd1Amy6h6-184" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;" edge="1" parent="1" source="-Zbz8kqlZJ3fd1Amy6h6-107" target="-Zbz8kqlZJ3fd1Amy6h6-118">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-Zbz8kqlZJ3fd1Amy6h6-106" value="YA" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=5;fontSize=13;" edge="1" parent="1" source="-Zbz8kqlZJ3fd1Amy6h6-107" target="-Zbz8kqlZJ3fd1Amy6h6-118">
-          <mxGeometry x="-0.7143" relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="550" y="630" />
-              <mxPoint x="550" y="630" />
-            </Array>
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="-Zbz8kqlZJ3fd1Amy6h6-107" value="Input Menu Customer&amp;nbsp;&lt;div style=&quot;font-size: 13px;&quot;&gt;pilihan (1/2/3/4)&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=3;fontSize=13;" vertex="1" parent="1">
           <mxGeometry x="390" y="1010" width="160" height="80" as="geometry" />
         </mxCell>
@@ -81,11 +72,6 @@
         </mxCell>
         <mxCell id="-Zbz8kqlZJ3fd1Amy6h6-183" value="TIDAK" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;" edge="1" parent="1" source="-Zbz8kqlZJ3fd1Amy6h6-110" target="-Zbz8kqlZJ3fd1Amy6h6-161">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="-Zbz8kqlZJ3fd1Amy6h6-109" value="TIDAK" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=5;fontSize=13;" edge="1" parent="1" source="-Zbz8kqlZJ3fd1Amy6h6-110">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1320" y="630" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="-Zbz8kqlZJ3fd1Amy6h6-110" value="If pilihan ==&quot;4&quot;" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=3;fontSize=13;" vertex="1" parent="1">
           <mxGeometry x="1180" y="1012" width="80" height="80" as="geometry" />
@@ -159,11 +145,6 @@
         <mxCell id="-Zbz8kqlZJ3fd1Amy6h6-130" value="TIDAK" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;fontSize=13;" edge="1" parent="1" source="-Zbz8kqlZJ3fd1Amy6h6-131" target="-Zbz8kqlZJ3fd1Amy6h6-133">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-Zbz8kqlZJ3fd1Amy6h6-129" value="YA" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=5;fontSize=13;" edge="1" parent="1" source="-Zbz8kqlZJ3fd1Amy6h6-131" target="-Zbz8kqlZJ3fd1Amy6h6-147">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1012.5" y="330" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="-Zbz8kqlZJ3fd1Amy6h6-131" value="If pilihan ==&quot;1&quot;" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=3;fontSize=13;" vertex="1" parent="1">
           <mxGeometry x="980" y="392.5" width="80" height="77.5" as="geometry" />
         </mxCell>
@@ -174,7 +155,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-Zbz8kqlZJ3fd1Amy6h6-133" value="If pilihan ==&quot;2&quot;" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=3;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="1150" y="385" width="70" height="80" as="geometry" />
+          <mxGeometry x="1151" y="391" width="70" height="80" as="geometry" />
         </mxCell>
         <mxCell id="-Zbz8kqlZJ3fd1Amy6h6-134" value="YA" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;fontSize=13;" edge="1" parent="1" source="-Zbz8kqlZJ3fd1Amy6h6-136" target="-Zbz8kqlZJ3fd1Amy6h6-151">
           <mxGeometry relative="1" as="geometry" />
@@ -183,19 +164,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-Zbz8kqlZJ3fd1Amy6h6-136" value="If pilihan ==&quot;3&quot;" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=3;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="1340" y="382.5" width="80" height="80" as="geometry" />
+          <mxGeometry x="1340" y="388.5" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="-Zbz8kqlZJ3fd1Amy6h6-138" value="TIDAK" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;fontSize=13;" edge="1" parent="1" source="-Zbz8kqlZJ3fd1Amy6h6-140" target="-Zbz8kqlZJ3fd1Amy6h6-143">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="-Zbz8kqlZJ3fd1Amy6h6-137" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=5;fontSize=13;" edge="1" parent="1" source="-Zbz8kqlZJ3fd1Amy6h6-140" target="-Zbz8kqlZJ3fd1Amy6h6-145">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-Zbz8kqlZJ3fd1Amy6h6-139" value="YA" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;fontSize=13;" edge="1" parent="1" source="-Zbz8kqlZJ3fd1Amy6h6-140" target="-Zbz8kqlZJ3fd1Amy6h6-145">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-Zbz8kqlZJ3fd1Amy6h6-140" value="If pilihan ==&quot;4&quot;" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=3;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="1520" y="385" width="80" height="80" as="geometry" />
+          <mxGeometry x="1520" y="388" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="-Zbz8kqlZJ3fd1Amy6h6-142" value="TIDAK" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;fontSize=13;" edge="1" parent="1" source="-Zbz8kqlZJ3fd1Amy6h6-143" target="-Zbz8kqlZJ3fd1Amy6h6-158">
           <mxGeometry relative="1" as="geometry" />
@@ -207,9 +185,6 @@
           <mxGeometry x="1680" y="385" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="-Zbz8kqlZJ3fd1Amy6h6-179" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;" edge="1" parent="1" source="-Zbz8kqlZJ3fd1Amy6h6-145" target="-Zbz8kqlZJ3fd1Amy6h6-153">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="-Zbz8kqlZJ3fd1Amy6h6-144" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=5;fontSize=13;" edge="1" parent="1" source="-Zbz8kqlZJ3fd1Amy6h6-145" target="-Zbz8kqlZJ3fd1Amy6h6-153">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-Zbz8kqlZJ3fd1Amy6h6-145" value="&lt;br style=&quot;font-size: 13px;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 13px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;Input ID Booking&lt;/span&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&lt;br style=&quot;font-size: 13px;&quot;&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=3;fontSize=13;" vertex="1" parent="1">
@@ -236,9 +211,6 @@
         <mxCell id="-Zbz8kqlZJ3fd1Amy6h6-178" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;" edge="1" parent="1" source="-Zbz8kqlZJ3fd1Amy6h6-151" target="-Zbz8kqlZJ3fd1Amy6h6-152">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-Zbz8kqlZJ3fd1Amy6h6-150" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;strokeWidth=5;fontSize=13;" edge="1" parent="1" source="-Zbz8kqlZJ3fd1Amy6h6-151" target="-Zbz8kqlZJ3fd1Amy6h6-152">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="-Zbz8kqlZJ3fd1Amy6h6-151" value="&lt;div style=&quot;font-size: 13px;&quot;&gt;Input ID Booking,&amp;nbsp;&lt;span style=&quot;background-color: initial; font-size: 13px;&quot;&gt;Nama Pelanggan Baru,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-size: 13px;&quot;&gt;pilihan (1-9) Jenis Makeup,&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-size: 13px;&quot;&gt;&amp;nbsp;Alamat Pelanggan Baru,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-size: 13px;&quot;&gt;Tanggal Booking Baru,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-size: 13px;&quot;&gt;Jam Booking Baru,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-size: 13px;&quot;&gt;Kontak Pelanggan Baru&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&lt;br style=&quot;font-size: 13px;&quot;&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=3;fontSize=13;" vertex="1" parent="1">
           <mxGeometry x="1285" y="575" width="195" height="155" as="geometry" />
         </mxCell>
@@ -261,9 +233,6 @@
           <mxGeometry x="1645" y="622.5" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-Zbz8kqlZJ3fd1Amy6h6-156" value="YA" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.056;entryY=0.44;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=3;fontSize=13;" edge="1" parent="1" source="-Zbz8kqlZJ3fd1Amy6h6-99" target="-Zbz8kqlZJ3fd1Amy6h6-107">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="-Zbz8kqlZJ3fd1Amy6h6-155" value="YA" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.383;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=5;fontSize=13;" edge="1" parent="1" source="-Zbz8kqlZJ3fd1Amy6h6-133" target="-Zbz8kqlZJ3fd1Amy6h6-149">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-Zbz8kqlZJ3fd1Amy6h6-157" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;" edge="1" parent="1" source="-Zbz8kqlZJ3fd1Amy6h6-158" target="-Zbz8kqlZJ3fd1Amy6h6-162">
@@ -294,9 +263,6 @@
           <mxGeometry x="1580" y="1013" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="-Zbz8kqlZJ3fd1Amy6h6-174" value="YA" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.562;entryY=0.01;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=3;" edge="1" parent="1" source="-Zbz8kqlZJ3fd1Amy6h6-131" target="-Zbz8kqlZJ3fd1Amy6h6-147">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="-Zbz8kqlZJ3fd1Amy6h6-169" value="YA" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.337;entryY=1.038;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="-Zbz8kqlZJ3fd1Amy6h6-143" target="-Zbz8kqlZJ3fd1Amy6h6-154">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-Zbz8kqlZJ3fd1Amy6h6-186" value="C" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=3;" vertex="1" parent="1">
