@@ -82,10 +82,9 @@ Bisa memilih role sebagai 1. admin, 2. customer, dan juga bisa 3. keluar dari pr
 
 Jika Memilih 1 akan muncul inputan untuk memasukkan username dan password. Username: ica dan Password: 20042006, selain username dan password tersebut tidak bisa login ke admin. Dan jika login berhasil, maka akan masuk ke menu admin.
 
-
-![Screenshot 2024-10-14 222719](https://github.com/user-attachments/assets/bc453454-69fb-45d3-89ea-c80a17a36e16)
-
 ![Screenshot 2024-10-14 221233](https://github.com/user-attachments/assets/af88af42-82bb-4e55-aa97-3a2de24033f0)
+
+![Screenshot 2024-10-14 222745](https://github.com/user-attachments/assets/edf7a1a8-763b-4da5-957a-3406a9e05bc4)
 
 Menu Admin, bisa memilih 1. tambah booking, 2. lihat booking, 3. update booking, 4. hapus booking, 5. keluar dari menu admin ke menu utama
 
@@ -149,6 +148,18 @@ Jika memilih pilihan 3, pada menu utama. Maka akan muncul ucapan Terima Kasih te
 
 ![Screenshot 2024-10-14 222840](https://github.com/user-attachments/assets/849145e6-511a-4527-9b0e-564a75478878)
 
+- OUTPUT FULL
+- ADMIN
+
+![Screenshot 2024-10-14 223737](https://github.com/user-attachments/assets/53b89639-ba18-4d85-8742-561791909ae6)
+
+![Screenshot 2024-10-14 223750](https://github.com/user-attachments/assets/4a4c993d-b65f-47e1-ab80-2cd3fc4918ba)
+
+- CUSTOMER
+
+![Screenshot 2024-10-14 223930](https://github.com/user-attachments/assets/f5d8964e-c593-4631-887a-093af5265947)
+
+![Screenshot 2024-10-14 223949](https://github.com/user-attachments/assets/fbdb3338-493e-448c-b133-a06334d0821c)
 
 
 
